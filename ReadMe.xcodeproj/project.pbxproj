@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC15FF4528087F5F00334742 /* PHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC15FF4428087F5F00334742 /* PHPickerViewController.swift */; };
 		AC84F46A28060E8000A66B9F /* ReadMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84F46928060E8000A66B9F /* ReadMeApp.swift */; };
 		AC84F46C28060E8000A66B9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC84F46B28060E8000A66B9F /* ContentView.swift */; };
 		AC84F46E28060E8600A66B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC84F46D28060E8600A66B9F /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC15FF4428087F5F00334742 /* PHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerViewController.swift; sourceTree = "<group>"; };
 		AC84F46628060E8000A66B9F /* ReadMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC84F46928060E8000A66B9F /* ReadMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadMeApp.swift; sourceTree = "<group>"; };
 		AC84F46B28060E8000A66B9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				AC84F46B28060E8000A66B9F /* ContentView.swift */,
+				AC15FF4428087F5F00334742 /* PHPickerViewController.swift */,
 				AC84F47E2806116900A66B9F /* Book views.swift */,
 				AC84F48428061CA300A66B9F /* DetailView.swift */,
 			);
@@ -163,6 +166,7 @@
 				AC84F46C28060E8000A66B9F /* ContentView.swift in Sources */,
 				AC84F4822806173B00A66B9F /* Library.swift in Sources */,
 				AC84F46A28060E8000A66B9F /* ReadMeApp.swift in Sources */,
+				AC15FF4528087F5F00334742 /* PHPickerViewController.swift in Sources */,
 				AC84F47A2806109400A66B9F /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
