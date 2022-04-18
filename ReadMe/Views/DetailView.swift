@@ -17,7 +17,8 @@ struct DetailView: View {
     VStack(alignment: .leading) {
       TitleAndAuthorStack(book: book, titleFont: .title, authorFont: .title2)
       VStack {
-        Book.Image(title: book.title)
+        Book.Image(image: image, title: book.title, cornerRadius: 16)
+          .scaledToFit()
         Button("Update Image…") {
           showImagePicker = true
         }
@@ -35,5 +36,6 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
   static var previews: some View {
     DetailView(book: .init(), image: .constant(nil))
+      .previewedInAllColorSchemes
   }
 }
